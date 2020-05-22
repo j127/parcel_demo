@@ -8,19 +8,14 @@
         "dev": "concurrently \"npx parcel src/index.html\" \"tsc --noEmit\"",
         "build": "npx parcel build src/index.html"
     },
-    "keywords": [
-        "parcel",
-        "javascript"
-    ],
+    "keywords": ["parcel", "javascript"],
     "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
     "license": "BSD-3-Clause",
     "devDependencies": {
         "concurrently": "^5.2.0",
         "parcel-bundler": "^1.12.4",
         "sass": "^1.26.5",
-        "typescript": "^3.9.3"
-    },
-    "dependencies": {
+        "typescript": "^3.9.3",
         "parcel-plugin-inliner": "^1.0.14"
     }
 }
