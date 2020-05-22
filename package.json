@@ -4,8 +4,8 @@
     "description": "A quick parcel example",
     "main": "index.js",
     "scripts": {
-        "watch": "npx parcel watch src/index.html",
-        "start": "npx run watch",
+        "start": "npm run dev",
+        "dev": "concurrently \"npx parcel src/index.html\" \"tsc --noEmit\"",
         "build": "npx parcel build src/index.html"
     },
     "keywords": [
@@ -15,6 +15,12 @@
     "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
     "license": "BSD-3-Clause",
     "devDependencies": {
-        "parcel-bundler": "^1.12.4"
+        "concurrently": "^5.2.0",
+        "parcel-bundler": "^1.12.4",
+        "sass": "^1.26.5",
+        "typescript": "^3.9.3"
+    },
+    "dependencies": {
+        "parcel-plugin-inliner": "^1.0.14"
     }
 }
