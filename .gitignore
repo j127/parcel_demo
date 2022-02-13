@@ -53,3 +53,6 @@ my_app-*.tar
 /priv/static/
 dist/
 .cache/
+
+# Local Netlify folder
+.netlify

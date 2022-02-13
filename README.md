@@ -2,6 +2,8 @@
 
 This is a quick example of how to use Parcel.js to create a landing page with modern JavaScript (or TypeScript) and SCSS.
 
+The demo is [here](https://parceldemo.netlify.app/).
+
 ## Installation
 
 Get the dependencies:
