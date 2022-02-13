@@ -12,11 +12,11 @@ body {
     // This is SCSS syntax, but Parcel will compile it to CSS automatically.
     a {
         color: rgb(126, 59, 4);
-        text-decoration-style: wavy;
+        text-decoration-style: dashed;
 
         &:hover {
             color: blue;
-            text-decoration-style: dashed;
+            text-decoration-style: wavy;
         }
     }
 }
