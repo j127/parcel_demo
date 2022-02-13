@@ -4,7 +4,6 @@
  */
 import ReactDOM from "react-dom";
 
-// Importing a TypeScript file here.
 import App from "./app";
 
 const outputArea = document.getElementById("app");

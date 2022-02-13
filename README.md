@@ -44,7 +44,7 @@ Any files that should be copied to the build directory as-is can be put in the `
 
 ## ES5
 
-Parcel automatically transpiles the TypeScript to ES5 because of this line in `package.json`:
+Parcel automatically transpiles the JavaScript (or TypeScript) to ES5 because of this line in `package.json`:
 
 ```text
 "browserslist": "defaults",
