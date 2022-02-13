@@ -39,3 +39,13 @@ See the `package.json` file to learn how the scripts work.
 ## Static Files
 
 Any files that should be copied to the build directory as-is can be put in the `static` directory. Examples of files that might go in there are `robots.txt` and `favicon.ico`. To make that work, it uses [this plugin](https://github.com/elwin013/parcel-reporter-static-files-copy) along with the settings in the `.parcelrc` file.
+
+## ES5
+
+Parcel automatically transpiles the TypeScript to ES5 because of this line in `package.json`:
+
+```text
+"browserslist": "defaults",
+```
+
+You can customize the output with [browserslist config](https://en.parceljs.org/javascript.html#default-babel-transforms).

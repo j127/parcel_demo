@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600&family=Open+Sans:wght@400;800&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(49, 59, 90);
+    background-color: antiquewhite;
+    font-size: 1.2rem;
+    padding: 7px 17px;
+    max-width: 960px;
+    margin: 7px auto;
+
+    // This is SCSS syntax, but Parcel will compile it to CSS automatically.
+    a {
+        color: rgb(126, 59, 4);
+        text-decoration-style: wavy;
+
+        &:hover {
+            color: blue;
+            text-decoration-style: dashed;
+        }
+    }
+}
+
+code {
+    font-family: "Fira Code", monospace;
+    font-size: 1rem;
+}

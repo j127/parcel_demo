@@ -2,12 +2,29 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Hello World</title>
-        <link rel="stylesheet" href="./css/main.scss" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Parcel.js Example</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <!-- Note that we're importing a SCSS file, and Parcel is automatically
+        transpiling it to CSS. -->
+        <link rel="stylesheet" href="./styles/main.scss" />
     </head>
     <body>
-        <h1>Hello World</h1>
+        <h1>Parcel.js Demo</h1>
+
+        <p>
+            See
+            <a href="https://github.com/j127/parcel_demo">this Git repo</a> for
+            more details.
+        </p>
+
+        <!-- The React/TypeScript app will load in this element. -->
         <div id="app"></div>
-        <script src="./js/main.ts"></script>
+
+        <!-- Note that we're importing a modern ES6 JS file, and Parcel is
+        automatically transpiling it to ES5 that can run in most browsers. -->
+        <script type="module" src="./scripts/main.js"></script>
     </body>
 </html>
