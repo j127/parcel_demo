@@ -1,6 +1,6 @@
 // See https://parceljs.org/recipes/react/
 import React from "react";
-import { BsLightbulb, BsLightbulbOff } from "react-icons/bs";
+import { BsFillLightbulbFill, BsLightbulbOff } from "react-icons/bs";
 
 const buttonStyles = {
     border: "none",
@@ -30,7 +30,7 @@ export default function App() {
 
             <div>
                 {isOn ? (
-                    <BsLightbulb className="on" size={iconSize} />
+                    <BsFillLightbulbFill className="on" size={iconSize} />
                 ) : (
                     <BsLightbulbOff className="off" size={iconSize} />
                 )}
