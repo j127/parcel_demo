@@ -1,3 +1,4 @@
+// See https://parceljs.org/recipes/react/
 import React from "react";
 import { BsLightbulb, BsLightbulbOff } from "react-icons/bs";
 
@@ -26,6 +27,7 @@ export default function App() {
     return (
         <div>
             <h2>React App Section</h2>
+
             <div>
                 {isOn ? (
                     <BsLightbulb className="on" size={iconSize} />
@@ -33,6 +35,7 @@ export default function App() {
                     <BsLightbulbOff className="off" size={iconSize} />
                 )}
             </div>
+
             <button style={buttonStyles} onClick={toggleLight}>
                 Turn Light {isOn ? "Off" : "On"}
             </button>
