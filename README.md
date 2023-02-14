@@ -1,5 +1,7 @@
 # Parcel Demo
 
+**Update:** there is a newer version for landing pages [here](https://github.com/j127/parcel_example).
+
 This is a quick example of how to use Parcel.js to create a landing page with modern JavaScript (or TypeScript) and SCSS.
 
 The demo is [here](https://parceldemo.netlify.app/).
